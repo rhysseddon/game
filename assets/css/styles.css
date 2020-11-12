@@ -1,0 +1,28 @@
+.color {
+   height: 370px;
+   width: 100%;
+   background-color: blue;
+
+}
+
+.answer1{
+    height: 75px;
+    width: 100%;
+    background-color: red;
+}
+
+.answer2{
+    height: 75px;
+    width: 100%;
+    background-color: green;
+}
+.answer3{
+    height: 75px;
+    width: 100%;
+    background-color:yellow;
+}
+.answer4{
+    height: 75px;
+    width: 100%;
+    background-color:pink;
+}
