@@ -1,28 +1,218 @@
-.color {
-   height: 370px;
-   width: 100%;
-   background-color: blue;
+
+/* site background image */
+html {
+    min-height: 100%;
+    background-image: url("../images/map-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: grey;
+}
+body {
+    font-family: 'Cinzel', serif;
+}
+header {
+ position: absolute;
+}
+.title {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 8px;
+}
+.flag-count {
+    font-size: 30px;
+    text-align: right;
+    color: white;
+    margin-top: 3px;
 
 }
+.score {
+    font-size: 30px;
+    text-align: right;
+    color: white;
 
-.answer1{
-    height: 75px;
+}
+.reset-button {
+    font-size: 30px;
+    text-align: left;
+    background-color: #df9a57;
+    color: white;
+    padding: 0px 5px 0px 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 17px;
+}
+.button-hover:hover {
+    background-color: #5abcb9;
+}
+.flag {
+    position: absolute;
+    width: 54%;
+    height: 60%;
+    margin-top: 5%;
+    margin-left: 23%;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.answer1 {
+    position: absolute;
+    width: 26%;
+    top: 73%;
+    left: 23%;
+    font-size: 30px;
+     background-color: #df9a57; 
+    color: white;
+    padding: 3px 5px 3px 5px;
+    border: 3px solid black;
+}
+.answer2 {
+    position: absolute;
+    width: 26%;
+    top: 73%;
+    right: 23%;
+    font-size: 30px;
+ background-color: #df9a57; 
+    color: white;
+    padding: 3px 5px 3px 5px;
+    border: 3px solid black;
+}
+.answer3 {
+    position: absolute;
+    width: 26%;
+    top: 85%;
+    left: 23%;
+    font-size: 30px;
+     background-color: #df9a57; 
+    color: white;
+    padding: 3px 5px 3px 5px;
+    border: 3px solid black;
+}
+.answer4 {
+    position: absolute;
+    width: 26%;
+    top: 85%;
+    right: 23%;
+    font-size: 30px;
+    background-color: #df9a57; 
+    color: white;
+    padding: 3px 5px 3px 5px;
+    border: 3px solid black;
+}
+.footer-info {
+    font-size: 12px;
+    color: white;
+    position: absolute;
     width: 100%;
-    background-color: red;
+    text-align: center;
+    bottom: 0.5%;
+}
+/* Below code styles the modal */
+
+.modal-content {
+    background-color:  #df9a57;
+    color: white;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.begin-button {
+    color: white;
+    background-color: #df9a57;
+    border: 3px solid black;
+    border-radius: 10px;
 }
 
-.answer2{
-    height: 75px;
-    width: 100%;
-    background-color: green;
+
+
+/* Ipad and Ipad Pro view */
+@media (max-width: 1024px) {
+    .title {
+        font-size: 50px;
+    }
+  .flag {
+        width: 90%;
+        height: 40%;
+        margin-top: 150px;
+        margin-left: 5%;
+    }
+.answer1 {
+       width: 42%;
+        top: 60%;
+        left: 5%;
+        font-size: 60px;
+  }
+  .answer2 {
+   width: 42%;
+        top: 60%;
+        right: 5%;
+        font-size: 60px;
+   }
+    .answer3 {
+      width: 42%;
+        top: 74%;
+        left: 5%;
+        font-size: 60px;
+  }
+   .answer4 {
+        width: 42%;
+        top: 74%;
+        right: 5%;
+        font-size: 60px;
+    }
 }
-.answer3{
-    height: 75px;
-    width: 100%;
-    background-color:yellow;
-}
-.answer4{
-    height: 75px;
-    width: 100%;
-    background-color:pink;
+/* Mobile View */
+@media (max-width: 690px) {
+    .title {
+        font-size: 22px;
+        margin-top: 17px;
+    }
+  .flag-count {
+        font-size: 17px;
+        margin-top: 17px;
+    }
+  .score {
+        font-size: 17px;
+    }
+ .reset-button {
+        font-size: 20px;
+        padding: 5px 5px 0px 5px;
+        margin-top: 17px;
+  }
+.flag {
+        width: 100%;
+        height: 40%;
+        margin-top: 90px;
+        margin-left: 0;
+    }
+    
+  .answer1 {
+        width: 100%;
+        top: 55%;
+        font-size: 32px;
+        padding: 3px 5px 3px 5px;
+        left: 0;
+        right: 0;
+    }
+.answer2 {
+        width: 100%;
+        top: 65%;
+        font-size: 32px;
+        padding: 3px 5px 3px 5px;
+        right: 0;
+    }
+ .answer3 {
+        width: 100%;
+        top: 75%;
+        font-size: 32px;
+        padding: 3px 5px 3px 5px;
+        left: 0;
+    }
+ .answer4 {
+        width: 100%;
+        top: 85%;
+        font-size: 32px;
+        padding: 3px 5px 3px 5px;
+        right: 0;
+    }
 }
